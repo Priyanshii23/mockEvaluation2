@@ -1,4 +1,4 @@
 
-export const baseUrl = "short-bustling-toaster.glitch.me";
+// export const baseUrl = "short-bustling-toaster.glitch.me";
 
-//  const baseUrl = "http://localhost:3000/quiz"
+export const baseUrl = "http://localhost:3000/quiz"

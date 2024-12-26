@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <h1>Welcome to Mini Quizzes</h1>
     <div id="nav"></div>
-<form action="" id="quizForm">
-    <div id="question">
-    <label for="text">Question:</label>
-    <input type="text" id="quesStatement" placeholder="Enter Question">
-</div>
-<div id="opt">
-   <input type="radio" name="options" value="Option A">Option A
-   <input type="radio" name="options" value="Option B">Option B
-   <input type="radio" name="options" value="Option C">Option C
-   <input type="radio" name="options" value="Option D">Option D
-</div>
+    <form action="" id="quizForm">
+        <div id="question">
+            <label for="text">Question:</label>
+            <input type="text" id="quesStatement" placeholder="Enter Question">
+        </div>
+        <div id="opt">
+            <input type="radio" name="options" value="Option A">
+            <input type="text" placeholder="Option A">
+            <input type="radio" name="options" value="Option B">
+            <input type="text" placeholder="Option B"> 
+            <input type="radio" name="options" value="Option C">
+            <input type="text" placeholder="Option C"> 
+            <input type="radio" name="options" value="Option D">
+            <input type="text" placeholder="Option D">
+        </div>
+        <div id="correct">
+            <select name="options" id="sel" >
+                <option value="select correct option">Select Correct Option</option>
+                <option value="optionA">Option A</option>
+                <option value="optionB">Option B</option>
+                <option value="optionC">Option C</option>
+                <option value="optionD">Option D</option>
+            </select>
+            <button>Submit</button>
+            
+        </div>
 
-</form>
+    </form>
 
 </body>
 <script src="./index.js"></script>
+
 </html>

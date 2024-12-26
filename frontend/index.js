@@ -1,4 +1,4 @@
-const navbar = () =>{
+const navbar = () => {
     let card = `<div id = "nav">
       <a id = "home" href = "index.html"> Home</a>
       <a id = quiz" href = "quiz.html"> Quiz </a>
@@ -8,8 +8,9 @@ const navbar = () =>{
 
     `
 
-    document.getElementById("nav").innerHTML = card}
+    document.getElementById("nav").innerHTML = card
+}
 
 
 
-    navbar()
+navbar()
