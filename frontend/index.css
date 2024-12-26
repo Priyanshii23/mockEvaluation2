@@ -33,3 +33,19 @@ form{
    justify-content: center;
    align-items: center;
 }
+
+#quizForm{
+   /* border: 1px solid black; */
+   
+}
+#question{
+    display: flex;
+    gap: 5px;
+
+}
+#opt{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+

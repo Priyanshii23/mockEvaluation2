@@ -19,6 +19,7 @@ form.addEventListener("submit", function(){
                 alert("Login Successful, You are redirecting to quiz page!")
                 localStorage.setItem("loginData")
                 JSON.stringify(user[0])
+                window.location.href="quiz.html"
             }
             else{
                 alert("Please enter password")
@@ -34,6 +35,7 @@ form.addEventListener("submit", function(){
         "err", err
     }
     }
+
 
 
 })
